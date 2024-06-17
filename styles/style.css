@@ -250,7 +250,7 @@ ol {
   font-size: 18px;
   line-height: 16px;
   height: 65%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .content__video-card-thumbnail {
@@ -298,15 +298,4 @@ ol {
 
 .more-button {
   width: 100%;
-}
-
-.error__title {
-  background-color: #545050;
-  font-family: 'Oswald' sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 110%;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
 }
