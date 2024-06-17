@@ -48,14 +48,6 @@ ol {
   column-gap: 30px;
 }
 
-.result {
-  width: 62.37%;
-}
-
-.content__details{
-  width: 35%;
-}
-
 .result__video-container {
   position: relative;
   width: 711px;
@@ -133,8 +125,7 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  border: 1px solid rgba(255, 255, 255, 0.7 );
-  outline: none;
+  outline: 1px solid rgba(255, 255, 255, 0.7 );
 }
 
 .search-form__label:hover {
@@ -160,20 +151,12 @@ ol {
 
 .search-form__label:has(input:checked) .search-form__pseudo-checkbox::after {
   content: "";
-  /* margin: 2px; */
   width: 15px;
   height: 15px;
   background-color: #fff;
-  /* outline: 1px solid #fff;
-  outline-offset: 1.5px; */
 }
 
 /*содержимое details*/
-
-.content__details {
-  height: 100%;
-  width: 100%;
-}
 
 .title {
   padding-bottom: 22px;
