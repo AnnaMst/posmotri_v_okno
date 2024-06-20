@@ -213,6 +213,10 @@ ol {
   margin-bottom: 30px;
 }
 
+.content__video-card-description-container {
+  width: 200px;
+}
+
 
 .content__video-card-title {
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -222,7 +226,7 @@ ol {
   text-transform: uppercase;
   overflow: hidden;
   text-overflow: ellipsis;
-   white-space: nowrap;
+  white-space: nowrap;
 }
 
 .content__video-card-description {
